@@ -1,0 +1,1027 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(246, 243, 243, 0.879); */
+    box-sizing: border-box
+
+}
+body{
+    background-color: rgb(238, 236, 236);
+    /* font-family: "Fira Sans", sans-serif; */
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+   
+}
+.FirstnavBar{
+    display: flex;
+    margin-top: 15px;
+}
+
+
+
+.Logo {
+    height:50px;
+    width:30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+   
+/* background: #911e1e; */
+
+}
+.Logo img{
+    height:25px;
+    width:90px;
+}
+.Logo h4{
+   
+  
+    font-size: large;
+   
+   font-weight: 400;
+}
+.SearchBar{
+    background-color: rgb(227, 227, 227);
+    height: 50px;
+    width:55%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 30px;
+  
+}
+.SearchBar h5{
+    font-size: medium;
+font-weight: 100;
+color: rgb(118, 118, 118);
+}
+.SearchIcon{
+    margin-left:10px;
+font-weight: bold;
+    color: black;
+}
+.LogIn{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   
+}
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(227, 227, 227);
+}
+  .LogIn h3{
+    font-size:17px;
+    font-weight:100;
+  }  
+  .LogIn i{
+    font-weight: bold;
+    color: black;
+  }
+
+.SecNavBar{
+    height:40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(235, 168, 168); */
+}
+.ExploreItem{
+    height:40px;
+    width:10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ExploreItem a {
+    margin-top:4px;
+    color: black;
+    font-size: medium;
+}
+.ExploreItem i {
+    margin-top:6px;
+}
+.Design{
+    height: 20px;
+    width: 45%;
+    font-size: medium;
+    background-color: rgb(227, 227, 227);
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+
+.ParentCard{
+    height: 5000px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+   /* background-color: blue; */
+
+}
+.MainDiv{
+    height: 40px;
+    width:100%; 
+}
+ 
+
+ .FirstNav{ 
+    /* background-color: aquamarine; */
+    height:40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.none{
+    height: 40px;
+    width: 30%;
+    /* background-color: blue; */
+}
+.NavItem{
+    height: 40px;
+    width: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.icons{
+    width: 80px;
+   gap: 10px;
+}
+.border{
+    height:5px;
+    width: 90%;
+    border-bottom:2px solid rgb(225, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+ margin-left:70px;
+}
+.ImageDiv{ 
+    /* background-color: aquamarine; */
+    height:500px;
+    width: 100%;
+    display: flex;margin-top: 40px;
+   
+
+}
+#TextBox{
+height:300px;
+width: 50%;
+/* background-color: rgb(167, 14, 14); */
+margin-left:80px;
+}
+.Digits{
+height:60px;
+width:80%;
+display: flex;
+justify-content: space-around;
+}
+.Digits h1{
+    margin-left:25px;
+    font-weight: 1000;
+    color: rgb(50, 95, 129);
+}
+.Digits h2{
+    margin-left:10px;
+font-size:16px;
+font-weight: 100;
+}
+
+
+
+.Image {
+    display: flex;
+    justify-content: center;
+    height:400px;
+    width: 50%;
+}
+.Image img{border:10px solid rgb(249, 247, 247);
+    border-radius: 150px;
+    height:400px;
+    width:40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.MainParent{
+    display: flex;
+    justify-content: center;
+}
+.CardsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+    height: 300px;
+    /* background-color: blueviolet; */
+}
+.FirstCardDiv{
+   
+    height: 250px;
+    width:50%;
+    background-color: rgb(94, 136, 156);
+    display: flex;
+   justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px 0px 0px 15px;
+ 
+}
+.InnerCard1 img{
+margin-left: 35px;
+}
+
+.InnerCard2 img{
+    margin-left: 37px;
+    }
+.SecCardDiv{
+    height: 270px;
+    width:20%;
+    background-color: rgb(15, 75, 103);
+  border-radius: 15px;
+padding-left: 35px;
+
+}
+.SecCardDiv img{
+    margin-bottom:-5px ;
+    margin-left:50px;
+}
+.ThirdInfo{
+    height: 250px;
+    width:25%;
+    background-color: rgb(94, 136, 156);
+padding-left: 80px;
+padding-top: 40px;
+border-radius: 0px 15px 15px 0px;
+}
+.ThirdInfo img{
+ margin-left: 50px;
+}
+
+.MainCards{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.MainCardDiv1{
+    height:450px;
+    width: 290px;
+    font-family: "Fira Sans", sans-serif;
+  border-radius: 15px 0px 0px 15px;
+    
+}
+.MainCardDiv1 img{
+height: 50%;
+margin-top:-5px;
+width: 100%;
+/* border-radius: 15px 0px 0px 15px; */
+}
+.m1{
+    border-radius: 15px 0px 0px 0px;
+}
+.m2{
+    border-radius: 0px 0px 0px 15px;
+}
+
+/* .MainCardDiv1 m1{
+  
+    border-radius: 15px 0px 0px 15px;
+    
+} */
+.MainCardDiv2{
+    height:500px;
+    width: 350px;
+    background-color: rgb(94, 136, 156);
+    border-radius: 15px;
+    padding-left: 30px;
+}
+.MainCardDiv2 p{
+   font-weight: 100;
+   color: rgb(206, 207, 207);
+}
+.MainCardDiv3{
+    height:450px;
+    width: 330px;
+    background-color: rgb(250, 250, 253);   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 0px 15px 15px 0px;
+padding-left: 25px;
+padding-right: 25px;
+
+}
+.MainCardDiv3 p{
+    font-size: 13px;
+    font-weight: 200;
+    color: rgb(171, 170, 170);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(15, 75, 103);
+    border-radius: 10px;
+}
+.Experience{
+    display:flex;
+   align-items: center;
+gap:10px;
+}
+.Experience h3{
+    color:  rgb(15, 75, 103);;
+}
+.ThumbUp{
+    color: aliceblue;
+    font-size: larger;
+}
+.ThumbUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width: 35px;
+    background-color: rgb(15, 75, 103);
+    border-radius:5px;
+}
+.Pardiv{
+    font-size: 13px;
+    margin-left: 30px;
+    font-weight: 200;
+    color: rgb(171, 170, 170);
+}
+.MainPartner{
+    height:200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.PartnerDiv{
+height: 200px;
+width:90%;
+/* background-color: aqua; */
+display: flex;
+justify-content: space-evenly;
+}
+.SubPartner1{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 25%;
+    font-size: small;
+}
+.SubPartner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    font-size: small;
+    color: black;
+}
+
+.SubPartner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    font-size: small;
+}
+
+.SubPartner4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    font-size: large;
+}
+
+.security{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(222, 221, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.SubSecurity1{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 35%;
+    margin-right: 90px;
+    
+}
+.SubSecurity1 h1{
+  padding-top: 10px;
+    font-size: 35px;
+ color: rgb(12, 73, 101);
+}
+.SubSecurity1 i{
+    color: rgb(252, 252, 251);
+    height: 40px;
+    font-size: 35px;
+}
+.circlediv{
+    margin-top: 20px;
+    height: 330px;
+    width: 270px;
+    background-color: rgb(84, 117, 132);
+    border-radius: 135px;
+    border: 7px solid rgb(255, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circlediv p{
+    color: rgb(220, 221, 221);
+    margin-top: 25px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.circlediv h3{
+    color: rgb(239, 242, 242);
+}
+.Learn{
+    height: 30px;
+    width: 130px;
+    background-color: rgb(29, 44, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+.SubSecurity2{
+    height: 500px;
+    width: 70%;
+    /* background-color: rgb(32, 186, 137); */
+    margin-right: 40px;
+}
+.arrow{
+    display: flex;
+    margin-left: 60px;
+}
+
+.SubSecurity2 p{
+    margin-left: 60px;
+
+}
+
+.infoDiv{
+    display:flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-right: 30px;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+  
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+   
+    border: 0.5px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoDiv i
+{
+    font-size: 20px;
+}
+.information h5{
+font-weight: 100;
+color: rgb(113, 113, 113);
+}
+
+.information h3{
+    color: rgb(29, 44, 83) ;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgba(78, 108, 122, 0.903); 
+    color: azure;
+    font-weight: 100;
+   
+}
+
+
+
+
+
+.MonitorDiv{
+    height: 600px;
+   width: 100%;
+   backdrop-filter:blur(30%);
+position: relative;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.MonitorDiv img{
+    height: 600px;
+   width: 100%;
+   background: rgb(69, 66, 105);
+  
+
+
+}
+
+.SubMonitor{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  rgba(94, 136, 156, 0.855);;
+    backdrop-filter: blur(20%);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.monitor1{
+    margin-top: -50px;
+    height: 600px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+padding-left: 60px;
+}
+.monitor1 h1{
+    font-size: 50px;
+padding-right: 30px;
+padding-bottom:50px ;
+}
+.parbutton{
+    padding-right: 400px;
+
+height: 40px;
+width: 100px;
+}
+.monitor1 p{
+margin-top: -20px;
+padding-left: 30px;
+
+}
+
+
+
+
+
+.monitor2{
+
+}
+
+
+
+ 
+
+ .monitor3 {
+    height: 450px;
+    width: 35%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+padding-left: 50px;
+  
+ }
+.monitor3 h2 {
+    font-size: 21px;
+    padding-bottom: 20px;
+} 
+
+.type1 {
+    height: 40px;
+    width: 340px;
+    background-color: rgb(91, 95, 122);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.type2 {
+    height: 40px;
+    background-color: rgb(91, 95, 122);
+    width: 340px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.type3 {
+    height: 160px;
+    background-color: rgb(91, 95, 122);
+    width: 340px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    padding: 16px;
+}
+
+.type4 {
+    background-color: rgb(54, 91, 127);
+    height: 35px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.parent_Steps {
+    height: 640px;
+    width: 1500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps {
+    height: 600px;
+    width: 87%;
+    /* background-color: beige; */
+}
+
+.S1 {
+    height: 200px;
+    width: 100%;
+    /* background-color: rgb(194, 125, 42); */
+    display: flex;
+    color: rgb(26, 18, 71);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.S1 h2 {
+    font-size: 45px;
+}
+
+.S1 p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.S2 {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.Discus {
+    height: 230px;
+    width: 335px;
+    background-color: rgb(254, 252, 250);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Discus p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Discus h3 {
+    font-size: 24px;
+    padding-top: 35px;
+}
+
+.install {
+    height: 230px;
+    width: 335px;
+    background-color: rgba(78, 108, 122, 0.903);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid rgb(214, 214, 214);
+}
+
+.install p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.install h3 {
+    font-size: 24px;
+    padding-top: 35px;
+}
+
+.maintenance {
+    height: 230px;
+    width: 335px;
+    background-color: rgb(253, 251, 249);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maintenance p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.maintenance h3 {
+    font-size: 24px;
+    padding-top: 35px;
+}
+
+.arrow {
+    height: 50px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vh;
+}
+
+.Dicon {
+    height: 100px;
+    width: 100px;
+    background-color:  rgba(78, 108, 122, 0.903);
+    position: absolute;
+    top: 25px;
+    left: 115px;
+    border-radius: 50px;
+}
+
+.Iicon {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 24, 66);
+    position: absolute;
+    top: 25px;
+    left: 600px;
+    border-radius: 50px;
+}
+
+.Micon {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(78, 108, 122, 0.903);
+    position: absolute;
+    top: 25px;
+    right: 115px;
+    border-radius: 50px;
+}
+.secure{
+    display: flex;
+    height: 25vh;
+
+}
+.secure1{
+    height: 6vh;
+    width: 90%;
+    margin-left: 40vh;
+    margin-top: 9vh;
+    font-size: 3.6vh;
+    color: rgb(30, 24, 66);
+}
+.secure2{
+    height: 6vh;
+    width: 100%;
+    margin-left: 5vh;
+    margin-top: 12vh;
+    color: gray;
+}
+.lmore{
+    margin-top: 3vh;
+    font-size: 2vh;
+    color: rgb(30, 24, 66);
+}
+.review{
+    
+    height: 20vw;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.review1 img{
+    height: 40vh;
+    width: 100%;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.review2{
+    background-color: rgb(29, 44, 83);
+    height: 40vh;
+    width: 30%;
+    margin-bottom: 4px;
+    border-radius: 0px 30px 30px 0px;
+}
+.review2 img{
+     height: 3vh;
+     /* background-color: bisque; */
+     /* width: 6vw; */
+     margin-left: 8vh;
+     margin-top: 50px;
+}
+.review2 p{
+      height: 15vh;
+      margin-left: 8vh;
+      margin-right: 8vh;
+      color: rgb(191, 191, 191);
+      /* background-color: bisque; */
+      /* display: flex;
+      align-items: center; */
+}
+
+.clientDiv{
+    height: 15vh;
+    width: vh;
+    margin-left: -25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.clientDiv img{
+    
+    height: 10vh;
+    width: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 100px;
+    margin-left: 17vh;
+    
+    
+}
+.client{
+    /* background-color: black; */
+    width: 25vh;
+    margin-left: 2vh;
+    margin-bottom: 2vw;
+}
+.client h4{
+    color: white;
+    font-weight: 900;
+}
+.client h5{
+    color: white;
+}
+.solution{
+    background-color: rgba(78, 108, 122, 0.903);
+    height: 50vh;
+    width: 100%;
+    margin-top: 5vw;
+    padding-top: 10px;
+}
+.solution1{
+    height: 15vh;
+    width: 40%;
+    /* background-color:  rgba(78, 108, 122, 0.903); */
+    color: rgb(225, 225, 225);
+    margin-left: 30%;
+    padding-top: 10px;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+    
+}
+.solution2{
+    height: 8vh;
+    width: 100%;
+    /* background-color: rgba(78, 108, 122, 0.903); */
+    color: rgb(206, 206, 206);
+    text-align: center;
+    padding-top: 17px;
+
+}
+.solution3{
+    background-color: rgb(29, 44, 83);
+    color: rgb(230, 230, 230);
+    height: 6vh;
+    width: 9%;
+    padding-top: 10px;
+    margin-left: 43%;
+    margin-top: 20px;
+    padding-left: 23px;
+    border-radius: 15px;
+}
+.BlogDiv{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(234, 236, 235);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+
+}
+.subblog{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(234, 236, 235);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.blogparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 25px;
+}
+.BlogDiv h1{
+    font-size: 45px;
+color: rgb(38, 38, 94);
+}
+.BlogcardsS{
+    height: 450px;
+    width: 350px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
